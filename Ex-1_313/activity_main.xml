@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="Rajalakshmi Engineering College"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnFontSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change Font Size"
+        android:background="@android:color/holo_purple"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnFontColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change Font Color"
+        android:background="@android:color/holo_purple"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnBgColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change Background Color"
+        android:background="@android:color/holo_purple"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
